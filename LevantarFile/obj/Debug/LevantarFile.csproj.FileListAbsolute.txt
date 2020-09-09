@@ -1,0 +1,7 @@
+C:\Proyectos c#\LevantarFile\LevantarFile\bin\Debug\LevantarFile.exe.config
+C:\Proyectos c#\LevantarFile\LevantarFile\bin\Debug\LevantarFile.exe
+C:\Proyectos c#\LevantarFile\LevantarFile\bin\Debug\LevantarFile.pdb
+C:\Proyectos c#\LevantarFile\LevantarFile\obj\Debug\LevantarFile.csprojAssemblyReference.cache
+C:\Proyectos c#\LevantarFile\LevantarFile\obj\Debug\LevantarFile.csproj.CoreCompileInputs.cache
+C:\Proyectos c#\LevantarFile\LevantarFile\obj\Debug\LevantarFile.exe
+C:\Proyectos c#\LevantarFile\LevantarFile\obj\Debug\LevantarFile.pdb
