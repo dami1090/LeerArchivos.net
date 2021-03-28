@@ -5,3 +5,10 @@ C:\Proyectos c#\LevantarFile\LevantarFile\obj\Debug\LevantarFile.csprojAssemblyR
 C:\Proyectos c#\LevantarFile\LevantarFile\obj\Debug\LevantarFile.csproj.CoreCompileInputs.cache
 C:\Proyectos c#\LevantarFile\LevantarFile\obj\Debug\LevantarFile.exe
 C:\Proyectos c#\LevantarFile\LevantarFile\obj\Debug\LevantarFile.pdb
+D:\Development\LeerArchivo\LeerArchivos.net\LevantarFile\bin\Debug\LevantarFile.exe.config
+D:\Development\LeerArchivo\LeerArchivos.net\LevantarFile\bin\Debug\LevantarFile.exe
+D:\Development\LeerArchivo\LeerArchivos.net\LevantarFile\bin\Debug\LevantarFile.pdb
+D:\Development\LeerArchivo\LeerArchivos.net\LevantarFile\obj\Debug\LevantarFile.csprojAssemblyReference.cache
+D:\Development\LeerArchivo\LeerArchivos.net\LevantarFile\obj\Debug\LevantarFile.csproj.CoreCompileInputs.cache
+D:\Development\LeerArchivo\LeerArchivos.net\LevantarFile\obj\Debug\LevantarFile.exe
+D:\Development\LeerArchivo\LeerArchivos.net\LevantarFile\obj\Debug\LevantarFile.pdb
