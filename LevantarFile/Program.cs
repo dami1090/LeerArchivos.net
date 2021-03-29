@@ -14,8 +14,10 @@ namespace LevantarFile
             int i = 0, resp=0, h=0;
             bool esnumero = false;
             string ruta;
-            string[] lineas;
+            string[] lineas, renglon;
             string rutaBajada = @"D:\Development\LeerArchivo\bajada.txt";
+            string rutaLimpia = @"D:\Development\LeerArchivo\apertura.txt";
+
             //DirectoryInfo d;
            /* do
             {
@@ -45,18 +47,34 @@ namespace LevantarFile
 
             Console.Clear();
             Console.WriteLine("El archivo seleccionado es: \t{0}",Files[resp-1].Name);
-            StreamWriter mylogs = File.AppendText(rutaBajada);
+            StreamWriter Archivo = File.AppendText(rutaBajada);
+            StreamWriter ArchivoApertura = File.AppendText(rutaLimpia);
             for (int l = lineas.Length; l > 0; l--)
             { 
-                mylogs.WriteLine("["+lineas[l-1]+"]"+",");
-                Console.WriteLine(" {0}-\t{1}", l, lineas[l-1]);
+                //Archivo.WriteLine("["+lineas[l-1]+"]"+",");
+                //Console.WriteLine(" {0}-\t{1}", l, lineas[l-1]);
             }
-            /*for (int l = 0; l < lineas.Length; l++)
+            for (int l = 0; l < lineas.Length; l++)
             { 
-                mylogs.WriteLine("["+lineas[l]+"]");
+                //String[] result  = source.Split( new char[] { ',' , ';' } );
+                //Separate the original text by two characters ("," and ";")
+                renglon = lineas[l].Split('"');
+                h=0;
+                foreach(string item in renglon)
+                {
+                    h++;
+                    if(!(item == ",") && h==6)
+                    {
+
+                        ArchivoApertura.WriteLine(item);
+                        Console.WriteLine("{0}-\t{1}",h,item);
+                    }
+                }
+                //Archivo.WriteLine("["+lineas[l]+"]");
                 Console.WriteLine(" {0}-\t{1}", l + 1, lineas[l]);
-            }*/
-            mylogs.Close();
+            }
+            Archivo.Close();
+            ArchivoApertura.Close();
             System.Console.WriteLine("**************************************");
             Console.WriteLine("Presione cualquier tecla para salir.");
             System.Console.ReadKey();
